@@ -4,7 +4,7 @@
       url('./assets/fonts/Jost-VariableFont_wght.ttf');
 }
 
-body {
+* {
   font-family: 'Roboto';
   margin: 0;
   padding: 0;
