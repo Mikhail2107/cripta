@@ -29,7 +29,7 @@ function App() {
   const [bots, setBots] = useState<BotProps[]>([]);  
 
 useEffect(() => {
-  fetch('public/data.min.json').then(res => res.json()).then(dt => {
+  fetch('/data.min.json').then(res => res.json()).then(dt => {
     setData(dt)
     setBots(dt.bots)})
 }, [])
