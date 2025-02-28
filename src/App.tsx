@@ -33,6 +33,7 @@ useEffect(() => {
     setData(dt)
     setBots(dt.bots)})
 }, [])
+console.log(bots)
 return (
   <>
     {data ? <Main data={data} bots={bots}/> : <div>Загрузка...</div>}

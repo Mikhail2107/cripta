@@ -64,22 +64,3 @@
   background-size:contain;
 
 }
-
-.recharts-tooltip-item-name,
-.recharts-tooltip-label,
-.recharts-tooltip-item-separator {
-  display: none;
-}
-.recharts-default-tooltip {
-  background-color: inherit !important;
-  border: none  !important;
-  padding: 0;
-}
-.recharts-tooltip-item {
-  padding: 0;
-  border: none;
-}
-.recharts-tooltip-item-value {
-  color: rgb(5, 182, 5);
-  font-weight: 500;
-}

@@ -1,6 +1,27 @@
 .chart-container {
   width: 100%;
   height: 380px;
-  border: 1px solid black;
 }
 
+
+.recharts-tooltip-item-name,
+.recharts-tooltip-label,
+.recharts-tooltip-item-separator {
+  display: none;
+}
+.recharts-default-tooltip {
+  background-color: none !important;
+  border: none  !important;
+  padding: 0 !important;
+}
+.recharts-tooltip-item {
+  padding: 0;
+  border: none;
+}
+.recharts-tooltip-item-value {
+  color: rgb(5, 182, 5);
+  font-weight: 500;
+  font-size: 4vw;
+  background-color: none !important;
+
+}

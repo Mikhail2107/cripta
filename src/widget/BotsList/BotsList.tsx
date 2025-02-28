@@ -25,6 +25,7 @@ const BotsList = ({ bots, getRandomDataCurrency, value }: BotsListProps) => {
     return { ...com, ...botName };
   });
   
+console.log(bots)
   return (
     <>
       <div className="bots__list_container">

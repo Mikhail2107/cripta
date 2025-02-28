@@ -40,6 +40,7 @@ const Main: FC<Props> = ({ data, bots }) => {
       : '24h'; 
   });
 
+  console.log(bots)
   const [botsData, setBotsData] = useState<BotProps[]>(() => {
     const savedBots = localStorage.getItem('botsData');
     return savedBots ? JSON.parse(savedBots) : bots;
