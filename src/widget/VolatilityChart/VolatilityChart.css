@@ -10,7 +10,7 @@
   display: none;
 }
 .recharts-default-tooltip {
-  background-color: none !important;
+  background-color:rgba(0, 0, 0, 0) !important;
   border: none  !important;
   padding: 0 !important;
 }
