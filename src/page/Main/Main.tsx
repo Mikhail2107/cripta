@@ -80,7 +80,7 @@ const Main: FC<Props> = ({ data, bots }) => {
       <Wallet trading_capital={0} trading_capital_currency={''} on_hold={0} {...data} />
       <VolatilityChart chartData={chartData} />
       <BotsList
-        bots={botsData}
+        bots={bots}
         getRandomDataCurrency={getRandomDataCurrency}
         value={value}
       />
