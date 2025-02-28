@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../src/assets/fonts/Jost-Italic-VariableFont_wght.ttf'),
+      url('./assets/fonts/Jost-VariableFont_wght.ttf');
+}
+
+* {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  color: #4d6078;
+  background-color: #1d2637;
+}
+body {
+  scrollbar-width: none;
+  
+}

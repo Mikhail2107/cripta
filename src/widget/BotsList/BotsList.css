@@ -1,0 +1,105 @@
+.bots__list_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+.bots__list {
+  list-style: none;
+  display: grid;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+}
+.bots__item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #252d40;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bots__item .none_bot {
+  cursor: no-drop;
+}
+.bots__item.bot__active {
+  box-shadow:inset 0px 0px 10px 10px  #2e3e59;
+}
+.bots__input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.bot__image {
+  width: 100%;
+  height: 100px;
+  margin: 0px auto;
+  padding: 10px 0;
+}
+.bots__name {
+  color: #ffffff;  
+  width: 100px;
+}
+.disabled {
+  pointer-events: none; 
+  opacity: 0.5; 
+  cursor: no-drop;
+}
+
+.bots__name--disabled {
+  color: #546076;
+}
+.bots__status.positive {
+  color: #78a659;
+}
+.bots__status.negative {
+  color: #d2447b;
+}
+.bots__name,
+.bots__status{
+  font-size: 2.5vw;
+  font-weight: 800;
+  position: relative;
+  background-color: #252d40;
+  margin: 4px auto;
+  text-align: center; 
+}
+.blue_bot {
+  background: url('../../assets/images/BotBlue.svg') no-repeat 50% 50%;
+  
+}
+.none_bot {
+  background: url('../../assets/images/BlackBot.svg') no-repeat 50% 50%;
+  cursor:no-drop;
+}
+.red_bot {
+  background: url('../../assets/images/BotRed.svg') no-repeat 50% 50%;
+}
+.orange_bot {
+  background: url('../../assets/images/BotOrange.svg') no-repeat 50% 50%;
+}
+.yellow_bot {
+  background: url('../../assets/images/BotYellow.svg') no-repeat 50% 50%;
+}
+.green_bot {
+  background: url('../../assets/images/BotGreen.svg') no-repeat 50% 50%;
+}
+.blue_bot,
+.botBlack,
+.red_bot,
+.orange_bot,
+.yellow_bot,
+.green_bot {
+  box-sizing: content-box;
+  background-size: contain;
+  width: 50%;
+}
