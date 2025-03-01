@@ -65,9 +65,9 @@ background: url('../../assets/images/ToolbarChart.svg') no-repeat 50% 50%;
   height: 6vw;
   color: #ffffff;
   font-weight: 500;
-  font-size: 5vw;
+  font-size: 4vw;
   border-radius: 50%;
   background-color: orange;
-  top: -3vw;
+  top: -2vw;
   right: -2vw;
 }

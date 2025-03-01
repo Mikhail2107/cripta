@@ -74,6 +74,12 @@ const BotsList = ({ bots, getRandomDataCurrency, value }: BotsListProps) => {
             </li>
           ))}
         </ul>
+        <ul className="arrow__box">
+          <li className="arrow__item arrow__top_left"></li>
+          <li className="arrow__item arrow__top_right"></li>
+          <li className="arrow__item arrow__bottom_left"></li>
+          <li className="arrow__item arrow__bottom_right"></li>
+        </ul>
       </div>
     </>
   );

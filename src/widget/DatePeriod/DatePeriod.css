@@ -4,13 +4,14 @@
   display: flex;
   margin: 0 auto;
   flex-direction: column;
-  align-items: center;
+  align-items:baseline;
   justify-content: center;
 }
 .range-title {
-  font-size: 2.3vw;
+  font-size: 3vw;
   margin-right: 10px;
   font-weight: bold;
+  line-height: 3vw;
 }
 .range__item {
   position: absolute;
@@ -20,10 +21,11 @@
 .time-range {
   list-style: none;
   display: flex;
+  justify-content: space-between;
 }
 .time-range .range__date {
-  width: 50px;
-  height: 20px;
+  width: 50vw;
+  height: 30vw;
   border: 1px solid #3c4c60;
   border-radius: 24px;
   margin: 0 5px;
