@@ -8,11 +8,14 @@
   /* border: 1px solid #fff; */
 }
 .menu__list {
+  margin: 0 auto;
+  display: flex;
   list-style: none;
-  width: 100%;
+  width: 90%;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
 }
 .menu__item {
   width: 100%;
@@ -39,4 +42,12 @@ background: url('../../assets/images/ToolbarChart.svg') no-repeat 50% 50%;
 }
 .item__profile {
  background: url('../../assets/images/ToolbarSettings.svg') no-repeat 50% 50%;
+}
+.item__dashboard,
+.item__megabot,
+.item__botmarket,
+.item__coinprices,
+.item__profile {
+  background-size: contain; 
+  width: 13vw;
 }
