@@ -1,30 +1,34 @@
 .menu-container {
   width: 100%;
-  height: 100px;
+  height: 20vw;
   background-color: #252d40;
-  /* position: fixed; */
   bottom: 0;
-  
-  /* border: 1px solid #fff; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .menu__list {
   margin: 0 auto;
-  display: flex;
   list-style: none;
   width: 90%;
-  height: 100%;
+  height: 10vw;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+
   gap: 20px;
 }
 .menu__item {
   width: 100%;
-  height: 100%;
+  height: 10vw;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .item__dashboard {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   background: url('../../assets/images/burger.svg') no-repeat 50% 50%;
 }
 .item__link {
