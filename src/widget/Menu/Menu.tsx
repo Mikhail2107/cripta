@@ -22,6 +22,7 @@ const Menu = () => {
           </li>
           <li className="menu__item item__profile">
             <a className='item__link' href="#"></a>
+            <span className="count-settings">3</span>
           </li>
         </ul>
       </div>
